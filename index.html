@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+
+<!-- Author : Paula OShea -->
+<!-- 10/15/2022 -->
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Audrey Personality Quiz</title>
+    <meta name="description" content="Audrey Personality Quiz" />
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Chango&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Neonderthaw&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Syne:wght@600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="shortcut icon" href="audreyFavicon.ico" />
+    <script src="index.js" defer></script>
+  </head>
+
+  <body>
+    <header>
+      <h1>Are you Audrey?</h1>
+    </header>
+    <main>
+      <div class="questionContainer">
+        <div class="question">
+          <p>1. What is your favorite country outside Ireland?</p>
+          <input type="radio" id="ans1" name="q1" value="Spain" />
+          <label for="ans1">Spain</label><br />
+          <input type="radio" id="ans2" name="q1" value="Thailand" />
+          <label for="ans2">Thailand</label><br />
+          <input type="radio" id="ans3" name="q1" value="Australia" />
+          <label for="ans3">Australia</label>
+        </div>
+
+        <div class="question">
+          <p>2. What is your least favourite part of the human body?</p>
+          <input type="radio" id="ans1" name="q2" value="Eye balls" />
+          <label for="ans1">Eye balls</label><br />
+          <input type="radio" id="ans2" name="q2" value="Feet" />
+          <label for="ans2">Feet</label><br />
+          <input type="radio" id="ans3" name="q2" value="Ear lobes" />
+          <label for="ans3">Ear lobes</label>
+        </div>
+
+        <div class="question">
+          <p>3. What would you name your dog?</p>
+          <input type="radio" id="ans1" name="q3" value="Bubs" />
+          <label for="ans1">Bubs</label><br />
+          <input type="radio" id="ans2" name="q3" value="George" />
+          <label for="ans2">George</label><br />
+          <input type="radio" id="ans3" name="q3" value="Popcorn" />
+          <label for="ans3">Popcorn</label>
+        </div>
+
+        <div class="question">
+          <p>4. What is the best canned vegetable?</p>
+          <input type="radio" id="ans1" name="q4" value="Sweet Corn Kernels" />
+          <label for="ans1">Sweet Corn Kernels</label><br />
+          <input type="radio" id="ans2" name="q4" value="Baked Beans" />
+          <label for="ans2">Baked Beans</label><br />
+          <input type="radio" id="ans3" name="q4" value="Mushy Peas" />
+          <label for="ans3">Mushy Peas</label>
+        </div>
+
+        <div class="question">
+          <p>5. What is your favorite hot drink?</p>
+          <input type="radio" id="ans1" name="q5" value="Green Tea" />
+          <label for="ans1">Green Tea</label><br />
+          <input type="radio" id="ans2" name="q5" value="Mocha" />
+          <label for="ans2">Mocha</label><br />
+          <input type="radio" id="ans3" name="q5" value="Coffee" />
+          <label for="ans3">Coffee</label>
+        </div>
+
+        <div class="question">
+          <p>6. What is your favorite boy's name?</p>
+          <input type="radio" id="ans1" name="q6" value="Ciaran" />
+          <label for="ans1">Ciaran</label><br />
+          <input type="radio" id="ans2" name="q6" value="Jack" />
+          <label for="ans2">Jack</label><br />
+          <input type="radio" id="ans3" name="q6" value="Daniel" />
+          <label for="ans3">Daniel</label>
+        </div>
+
+        <div class="question">
+          <p>7. Should the toilet paper roll towards you or away from you?</p>
+          <input
+            type="radio"
+            id="ans1"
+            name="q7"
+            value="Always away from you"
+          />
+          <label for="ans1">Always away from you</label><br />
+          <input type="radio" id="ans2" name="q7" value="Really? Who cares?" />
+          <label for="ans2">Really? Who cares?</label><br />
+          <input type="radio" id="ans3" name="q7" value="Always towards you" />
+          <label for="ans3">Always towards you</label>
+        </div>
+
+        <div class="question">
+          <p>8. What is your favourite color?</p>
+          <input type="radio" id="ans1" name="q8" value="Moss green" />
+          <label for="ans1">Moss Green</label><br />
+          <input type="radio" id="ans2" name="q8" value="Pink blush" />
+          <label for="ans2">Pink blush</label><br />
+          <input type="radio" id="ans3" name="q8" value="Lemon yellow" />
+          <label for="ans3">Lemon yellow</label>
+        </div>
+      </div>
+      <div id="resultsContainer"></div>
+      <div class="buttons">
+        <button type="button" id="submitButton">Submit Answers!</button>
+        <button type="button" id="playAgainButton">Play Again!</button>
+      </div>
+      <div class="modal">
+        <div class="modal-content">
+          <span class="close-button">&times;</span>
+          <p id="modalMessage"></p>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <p>© Copyright 2022 Elizabeth O'Shea</p>
+      <p>
+        Contact me at
+        <a href="mailto:elizabethgraceoshea@gmail.com">Elizabeth's email</a>
+      </p>
+    </footer>
+  </body>
+</html>
